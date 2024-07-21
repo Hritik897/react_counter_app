@@ -31,6 +31,8 @@ const Counter = () => {
         <h2>Counter App  </h2>
         <h2>{value}</h2>
         <button onClick={changeValue}>Increase </button>
+        <button onClick={changeValue}>Decrease </button>
+
 
      </>
    )
